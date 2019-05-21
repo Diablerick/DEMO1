@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Live</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+		<link rel="stylesheet" href="https://github.com/matthieua/WOW/tree/20848c410fe32d161c2330e1d261b59512094f81">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </head>
+	<body>
+		<header>
+	        <div id="Head1"><h5 class="wow bounceOut">PLAYGROUND</h5></div>
+		    <div id="Head2"></div>
+		    <div class="dropdown" id="Head3">
+		        <button  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">O</button>
+		        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="MenuOne">
+    <a class="dropdown-item MenuItem" href="#">Action</a>
+    <a class="dropdown-item MenuItem" href="#">Action1</a>
+    <a class="dropdown-item MenuItem" href="#">Action2</a>
+                </div>
+		    </div>
+		</header>
+		<section id="one"> 
+		<div id="oneCenter">
+		    
+		</div>
+		<div id="twoCenter">
+                <div id="CpI">
+                    <div class="arrow"> 
+                        <a data-scroll href="#Two" id="arrow">2</a>
+                    </div>
+                    <div id="Center">
+                    </div>
+                    <div class="arrow2">
+                        <a data-scroll href="#Three" id="arrow2">3</a>
+                    </div>
+                </div>
+		</div>
+		</section>
+		<section id="two">
+		    <div id="secTwo1">
+		        
+		    </div>
+		    <div  id="secTwo2">
+		      <div class="arrow"> 
+                        <a data-scroll href="#Three" id="arrow3">3</a>
+                    </div>
+		      <div id="Center2">
+ 	   <div class="wow bounceIn" id="Box1">Codigo Prueba</div>
+ 	   <div class="wow bounceIn" id="Box2">Codigo Prueba</div>
+	   <div class="wow bounceIn" id="Box3">Codigo Prueba</div>
+		        </div>
+		      <div class="arrow2">
+                        <a data-scroll href="#One" id="arrow4">1</a>
+                    </div>
+		    </div>
+		    
+		</section>
+		
+		<section id="three">
+		    
+		   <div id="CenterThree">
+		       <div class="arrow"> 
+                        <a data-scroll href="#One" id="arrow5">1</a>
+                    </div>
+		      <div id="Center3">
+		             <div class="panel panel-default"> 
+		<a class="collapsed" data-toggle="collapse" href="#tabFaq1" aria-expanded="false">VISION</a> 
+		<div id="tabFaq1" class="panel-collapse collapse out" aria-expanded="true" style="">
+			<div class="panel-default">
+				<p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+			</div>
+		</div>
+    </div>
+		        </div>
+		      <div class="arrow2">
+                        <a data-scroll href="#Two" id="arrow6">2</a>
+                    </div>
+		   </div>
+		</section>
+		<footer id="footer1">
+		<button class="footSocial">F</button>
+		<button class="footSocial">T</button>
+		<button class="footSocial">Y</button>
+		</footer>
+	</body>
+</html>
